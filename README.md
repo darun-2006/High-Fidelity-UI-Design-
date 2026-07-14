@@ -2,7 +2,7 @@
 
 A high-fidelity UI build of the Aurora Mart mobile shopping app, built as plain HTML/CSS.
 This is the polished, presentation-ready version developed from the
-[low-fidelity wireframe](../aurora-mart-wireframe) of the same screen.
+[low-fidelity wireframe](https://github.com/darun-2006/-Wireframing-Low-Fidelity-Design.git) of the same screen.
 
 ## What this is
 
@@ -72,6 +72,6 @@ then visit `http://localhost:8000`.
 ## Relationship to the wireframe
 
 This build follows the same section order, grid structure, and component grouping as the
-[low-fidelity wireframe](../aurora-mart-wireframe). Only the visual layer changes between the
+[low-fidelity wireframe](https://github.com/darun-2006/-Wireframing-Low-Fidelity-Design.git). Only the visual layer changes between the
 two versions — color, imagery, typography, and interaction polish are added here, while the
 underlying information architecture stays identical.
