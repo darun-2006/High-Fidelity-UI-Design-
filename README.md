@@ -69,6 +69,12 @@ then visit `http://localhost:8000`.
 - The two-column product grid (`.product-grid`) is CSS Grid — adding another product card is
   just adding another `<article class="product-card">`.
 
+This project is plain HTML/CSS, not a native `.fig` or `.xd` file. To bring it into Figma or Adobe XD:
+
+- **html.to.design plugin** (Figma) — import `index.html` directly as editable frames, layers, and text.
+- **Manual trace** — open the page in a browser at 390px width (its base mobile size), screenshot each section, and paste into a Figma/XD frame, then trace over with native shape, text, and component tools.
+- **Inspect for exact values** — use your browser's DevTools (right-click → Inspect) on any element to read its exact colors, spacing, and font sizes from `styles.css`, and match them 1:1 in your Figma styles/tokens.
+
 ## Relationship to the wireframe
 
 This build follows the same section order, grid structure, and component grouping as the
