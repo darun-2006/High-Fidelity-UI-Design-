@@ -6,9 +6,9 @@ This is the polished, presentation-ready version developed from the
 
 ## What this is
 
-A fully styled mobile app home screen — real color palette, typography, imagery placeholders
-styled as content, and finished UI components — as opposed to the grayscale, structure-only
-wireframe it was built from:
+Converted from a Figma high-fidelity design into a working HTML/CSS build — real color
+palette, typography, imagery placeholders styled as content, and finished UI components — as
+opposed to the grayscale, structure-only wireframe it was built from:
 
 - **Purple/white brand palette** with gradient hero cards
 - **Styled components** — rounded cards, pill buttons, colored status tags (e.g. "Save 38%",
