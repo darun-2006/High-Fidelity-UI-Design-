@@ -1,6 +1,6 @@
 # Aurora Mart — High-Fidelity Design
 
-A high-fidelity UI build of the Aurora Mart mobile shopping app, built as plain HTML/CSS.
+A high-fidelity UI build of the Aurora Mart mobile shopping app, converted as plain HTML/CSS from a figma design.
 This is the polished, presentation-ready version developed from the
 [low-fidelity wireframe](https://github.com/darun-2006/-Wireframing-Low-Fidelity-Design.git) of the same screen.
 
