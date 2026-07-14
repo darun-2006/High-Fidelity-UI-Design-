@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aurora Mart</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- Status bar -->
+  <div class="status-bar">
+    <span class="status-time">12:30</span>
+    <div class="status-icons">
+      <svg width="18" height="12" viewBox="0 0 18 12" fill="none"><rect x="0" y="8" width="3" height="4" rx="0.5" fill="currentColor"/><rect x="5" y="5" width="3" height="7" rx="0.5" fill="currentColor"/><rect x="10" y="2" width="3" height="10" rx="0.5" fill="currentColor"/><rect x="15" y="0" width="3" height="12" rx="0.5" fill="currentColor"/></svg>
+      <svg width="16" height="12" viewBox="0 0 16 12" fill="none"><path d="M8 2C11 2 13.5 3.3 15 5L13.5 6.8C12.3 5.5 10.3 4.5 8 4.5C5.7 4.5 3.7 5.5 2.5 6.8L1 5C2.5 3.3 5 2 8 2Z" fill="currentColor"/><circle cx="8" cy="9.5" r="1.5" fill="currentColor"/></svg>
+      <svg width="24" height="12" viewBox="0 0 24 12" fill="none"><rect x="0.5" y="0.5" width="20" height="11" rx="2.5" stroke="currentColor"/><rect x="2" y="2" width="15" height="8" rx="1" fill="currentColor"/><rect x="21.5" y="4" width="1.5" height="4" rx="0.7" fill="currentColor"/></svg>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <h1 class="logo">Aurora Mart</h1>
+    <div class="header-icons">
+      <button class="icon-btn" aria-label="Cart">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="21" r="1.2"/><circle cx="18" cy="21" r="1.2"/><path d="M2 3h2l2.4 12.2a2 2 0 0 0 2 1.6h8.6a2 2 0 0 0 2-1.6L21 7H6"/></svg>
+      </button>
+      <button class="icon-btn" aria-label="Notifications">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8a6 6 0 1 0-12 0c0 6-2.4 8-2.4 8h16.8S18 14 18 8Z"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+        <span class="dot"></span>
+      </button>
+      <button class="icon-btn" aria-label="Search">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.35-4.35"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Search -->
+    <section class="search-section">
+      <div class="search-bar">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="text" placeholder="Search products, brands, or categories...">
+      </div>
+      <p class="search-tip">Tip: try "wireless headphones" or "organic skincare".</p>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+      <a class="category" href="#">
+        <span class="category-icon">💄</span>
+        <span>Beauty</span>
+      </a>
+      <a class="category" href="#">
+        <span class="category-icon">👗</span>
+        <span>Fashion</span>
+      </a>
+      <a class="category" href="#">
+        <span class="category-icon">📱</span>
+        <span>Electronics</span>
+      </a>
+      <a class="category" href="#">
+        <span class="category-icon">🔍</span>
+        <span>Home &amp; K...</span>
+      </a>
+      <a class="category" href="#">
+        <span class="category-icon">🍎</span>
+        <span>Grocery</span>
+      </a>
+    </section>
+
+    <!-- Hero carousel -->
+    <section class="hero-section">
+      <div class="hero-card">
+        <p>Curated deals carousel with bold gradient hero cards and clear CTA: "Shop the Drop".</p>
+      </div>
+      <div class="carousel-dots">
+        <span class="dot-ind active"></span>
+        <span class="dot-ind"></span>
+        <span class="dot-ind"></span>
+      </div>
+    </section>
+
+    <!-- Flash Deals -->
+    <section class="section">
+      <div class="section-header">
+        <div>
+          <h2>Flash Deals</h2>
+          <p class="section-sub">Limited-time pricing • Free returns</p>
+        </div>
+        <button class="pill-btn">View all deals</button>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <span class="tag tag-green">Save 38%</span>
+          <div class="product-img">
+            <p>Modern product photo of Wireless Noise-Canceling Headphones in matte black, studio lighting</p>
+          </div>
+          <h3>QuietWave Headphones</h3>
+          <p class="price">$79.99 <span class="strike">Was $129...</span></p>
+          <div class="product-actions">
+            <span class="emoji-btn">❤️</span>
+            <span class="emoji-btn">🛍️</span>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <span class="tag tag-purple">Best Seller</span>
+          <div class="product-img">
+            <p>Lifestyle image of a Smartwatch with a stainless case and colorful watch face</p>
+          </div>
+          <h3>PulseFit Smartwatch</h3>
+          <p class="price">$59.00 <span class="strike-label">Free ship...</span></p>
+          <div class="product-actions">
+            <span class="emoji-btn">❤️</span>
+            <span class="emoji-btn">🛍️</span>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <span class="tag tag-blue">New</span>
+          <div class="product-img">
+            <p>Close-up product shot of a skincare serum bottle with a soft aqua background</p>
+          </div>
+          <h3>GlowShield Vitamin C Serum</h3>
+          <p class="price">$24.50 <span class="rating">• 4.7★</span></p>
+          <div class="product-actions">
+            <span class="emoji-btn">❤️</span>
+            <span class="emoji-btn">🛍️</span>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <span class="tag tag-orange">Top Rated</span>
+          <div class="product-img">
+            <p>Bright kitchen counter setup with a compact air fryer and food styling</p>
+          </div>
+          <h3>CrispAir Fryer 4QT</h3>
+          <p class="price">$69.99 <span class="rating">• 2000+ rev...</span></p>
+          <div class="product-actions">
+            <span class="emoji-btn">❤️</span>
+            <span class="emoji-btn">🛍️</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Today's Savings -->
+    <section class="section">
+      <div class="section-header">
+        <div>
+          <h2>Today's Savings</h2>
+          <p class="section-sub">Optimized for quick decisions</p>
+        </div>
+        <button class="pill-btn">See coupons</button>
+      </div>
+
+      <div class="stats-row">
+        <div class="stat-card">
+          <p class="stat-label">Coupons available</p>
+          <p class="stat-value">18</p>
+          <p class="stat-delta up">+3 today</p>
+        </div>
+        <div class="stat-card">
+          <p class="stat-label">Avg. discount</p>
+          <p class="stat-value">22%</p>
+          <p class="stat-delta up">+5% vs yesterday</p>
+        </div>
+        <div class="stat-card">
+          <p class="stat-label">Fre...</p>
+          <p class="stat-value">$3...</p>
+          <p class="stat-delta">Alr...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommended for you -->
+    <section class="section">
+      <div class="section-header">
+        <div>
+          <h2>Recommended for You</h2>
+          <p class="section-sub">Based on your browsing • Personal picks</p>
+        </div>
+        <button class="pill-btn">Refresh recommendations</button>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <span class="tag tag-purple">Editor's Pick</span>
+          <div class="product-img">
+            <p>Premium running shoes on a clean studio backdrop with subtle shadows</p>
+          </div>
+          <h3>AeroRun Sneakers</h3>
+          <p class="price">$54.99 <span class="rating">• Lightwe...</span></p>
+          <div class="product-actions">
+            <span class="emoji-btn">✨</span>
+            <span class="emoji-btn">🧡</span>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <span class="tag tag-green">Deal</span>
+          <div class="product-img">
+            <p>Minimal desk setup with a sleek mechanical keyboard and RGB glow</p>
+          </div>
+          <h3>TypeSpark Mechanical Keyboard</h3>
+          <p class="price">$89.00 <span class="rating">• Hot-swap</span></p>
+          <div class="product-actions">
+            <span class="emoji-btn">✨</span>
+            <span class="emoji-btn">🧡</span>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <span class="tag tag-blue">Bund...</span>
+          <div class="product-img">
+            <p>So...</p>
+          </div>
+          <h3>Calm...</h3>
+          <p class="price">$19...</p>
+          <div class="product-actions">
+            <span class="emoji-btn">✨</span>
+            <span class="emoji-btn">🧡</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Why Aurora Mart -->
+    <section class="section">
+      <div class="section-header">
+        <div>
+          <h2>Why Aurora Mart?</h2>
+          <p class="section-sub">Fast, secure, and built for everyday shopping</p>
+        </div>
+        <button class="link-btn">Learn more ›</button>
+      </div>
+
+      <div class="feature-list">
+        <div class="feature-row">
+          <div class="feature-icon">✔️</div>
+          <div>
+            <h4>Verified Quality</h4>
+            <p>Curated listings. Every product is checked for authenticity and quality standards.</p>
+          </div>
+        </div>
+        <div class="feature-row">
+          <div class="feature-icon">🚚</div>
+          <div>
+            <h4>Smart Delivery</h4>
+            <p>Transparent tracking. See estimated arrival times and live tracking from checkout.</p>
+          </div>
+        </div>
+        <div class="feature-row">
+          <div class="feature-icon">↩️</div>
+          <div>
+            <h4>Easy Returns</h4>
+            <p>No hassle. Free returns within 30 days on eligible items.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Customer Reviews -->
+    <section class="section">
+      <div class="section-header">
+        <div>
+          <h2>Top Customer Reviews</h2>
+          <p class="section-sub">What shoppers love most</p>
+        </div>
+        <button class="pill-btn">Read all reviews</button>
+      </div>
+
+      <div class="review-grid">
+        <div class="review-card">
+          <div class="review-head">
+            <span class="avatar"></span>
+            <div>
+              <p class="review-name">Maya R.</p>
+              <p class="review-stars">★★★★★</p>
+            </div>
+          </div>
+          <p class="review-text">The headphones sound incredible—clear highs and strong bass. Delivery was sup...</p>
+          <div class="review-actions">💬 👍</div>
+        </div>
+        <div class="review-card">
+          <div class="review-head">
+            <span class="avatar"></span>
+            <div>
+              <p class="review-name">Jordan K.</p>
+              <p class="review-stars">★★★★★</p>
+            </div>
+          </div>
+          <p class="review-text">Great build quality...</p>
+          <div class="review-actions">💬 👍</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Categories -->
+    <section class="section">
+      <div class="section-header">
+        <div>
+          <h2>Quick Categories</h2>
+          <p class="section-sub">Jump to what you need</p>
+        </div>
+        <button class="pill-btn">Browse categories</button>
+      </div>
+
+      <div class="quick-list">
+        <div class="quick-row">
+          <div class="quick-left">
+            <span class="quick-icon">🧴</span>
+            <div>
+              <p class="quick-title">Personal Care</p>
+              <p class="quick-sub">Clean &amp; confident</p>
+            </div>
+          </div>
+          <div class="quick-right">Best under $25 <span class="plus">+</span></div>
+        </div>
+        <div class="quick-row">
+          <div class="quick-left">
+            <span class="quick-icon">❤️</span>
+            <div>
+              <p class="quick-title">Health Essentials</p>
+              <p class="quick-sub">Everyday care</p>
+            </div>
+          </div>
+          <div class="quick-right">Starter kits <span class="plus">+</span></div>
+        </div>
+        <div class="quick-row">
+          <div class="quick-left">
+            <span class="quick-icon">🏠</span>
+            <div>
+              <p class="quick-title">Home Organizers</p>
+              <p class="quick-sub">Tidy spaces</p>
+            </div>
+          </div>
+          <div class="quick-right">New arrivals <span class="plus">+</span></div>
+        </div>
+        <div class="quick-row">
+          <div class="quick-left">
+            <span class="quick-icon">📚</span>
+            <div>
+              <p class="quick-title">Books &amp; Study</p>
+              <p class="quick-sub">Learn smarter</p>
+            </div>
+          </div>
+          <div class="quick-right">Top picks <span class="plus">+</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shop the Look -->
+    <section class="section">
+      <div class="section-header">
+        <div>
+          <h2>Shop the Look</h2>
+          <p class="section-sub">Real setups from the community</p>
+        </div>
+        <button class="pill-btn">View community</button>
+      </div>
+
+      <div class="post-list">
+        <article class="post-card">
+          <div class="post-head">
+            <span class="avatar"></span>
+            <div class="post-meta">
+              <p class="post-name">StudioNova</p>
+              <p class="post-sub">2h ago • Brooklyn, NY</p>
+            </div>
+            <span class="more">⋯</span>
+          </div>
+          <div class="post-img">
+            <p>Warm lifestyle photo of a desk with a keyboard, plant, and cozy lamp</p>
+          </div>
+          <p class="post-caption">Minimal desk setup with Aurora picks—feels premium without the price tag.</p>
+          <p class="post-tags">#DeskSetup #ValueFinds</p>
+          <div class="post-actions">💬 🔖</div>
+        </article>
+
+        <article class="post-card">
+          <div class="post-head">
+            <span class="avatar"></span>
+            <div class="post-meta">
+              <p class="post-name">SanaGlow</p>
+              <p class="post-sub">Yesterday • Austin, TX</p>
+            </div>
+            <span class="more">⋯</span>
+          </div>
+          <div class="post-img">
+            <p>Bathroom shelf styling with skincare bottles and soft daylight</p>
+          </div>
+          <p class="post-caption">GlowShield serum is my everyday step. Texture is silky and absorbs fast.</p>
+          <p class="post-tags">#SkincareRoutine</p>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Bottom nav -->
+  <nav class="bottom-nav">
+    <a href="#" class="nav-item active">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 11.5 12 4l9 7.5"/><path d="M5 10v9a1 1 0 0 0 1 1h4v-6h4v6h4a1 1 0 0 0 1-1v-9"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="#" class="nav-item">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="21" r="1.2"/><circle cx="18" cy="21" r="1.2"/><path d="M2 3h2l2.4 12.2a2 2 0 0 0 2 1.6h8.6a2 2 0 0 0 2-1.6L21 7H6"/></svg>
+      <span>Cart</span>
+    </a>
+    <a href="#" class="nav-item">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 7 12 3 4 7l8 4 8-4Z"/><path d="M4 7v10l8 4 8-4V7"/><path d="M12 11v10"/></svg>
+      <span>Deals</span>
+    </a>
+    <a href="#" class="nav-item">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 9h8M8 13h5"/></svg>
+      <span>Orders</span>
+    </a>
+    <a href="#" class="nav-item">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c1.2-4 4.2-6 7-6s5.8 2 7 6"/></svg>
+      <span>Account</span>
+    </a>
+  </nav>
+
+</div>
+
+</body>
+</html>
